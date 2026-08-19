@@ -1,0 +1,887 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLANA BUSINESS</title>
+    <link rel="icon" href="assets/images/gallery-5.webp" type="image/x-png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-[var(--color-yellow)]">
+    <section class="hero min-h-fit 2xl:min-h-[839px]">
+      <header class="h-[clamp(64px,4.7vw,82px)] px-5">
+        <div class="container mx-auto w-full max-w-[1320px]">
+          <nav
+            class="nav-bar relative flex w-full items-center justify-between py-[11px]"
+          >
+            <div class="logo w-[clamp(160px,11.667vw,224px)]">
+              <img
+                width="224"
+                height="60"
+                class="block h-[clamp(42px,3.125vw,60px)] w-full cursor-pointer"
+                src="assets/images/logo.webp"
+                alt="nav-logo"
+              />
+            </div>
+
+            <input type="checkbox" id="menu-connect" class="peer hidden" />
+
+            <label
+              for="menu-connect"
+              class="menu-button relative z-[60] flex h-5 w-5 cursor-pointer flex-col justify-between xl:hidden [&>span]:block [&>span]:h-[2px] [&>span]:w-5 [&>span]:rounded [&>span]:bg-black [&>span]:transition-all [&>span]:duration-300 [&>span]:ease-in-out peer-checked:[&>span:nth-child(1)]:translate-y-[9px] peer-checked:[&>span:nth-child(1)]:rotate-45 peer-checked:[&>span:nth-child(2)]:scale-0 peer-checked:[&>span:nth-child(2)]:opacity-0 peer-checked:[&>span:nth-child(3)]:-translate-y-[9px] peer-checked:[&>span:nth-child(3)]:-rotate-45"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+
+            <div
+              class="right fixed top-0 right-0 z-50 flex h-full w-[70vw] flex-col items-center justify-center gap-[20px] px-5 shadow-2xl invisible pointer-events-none translate-x-full opacity-0 transition-all duration-300 ease-in-out peer-checked:translate-x-0 peer-checked:visible peer-checked:pointer-events-auto peer-checked:opacity-100 max-xl:bg-[var(--color-red)] xl:static xl:z-auto xl:flex-row xl:items-center xl:gap-[20px] xl:w-auto xl:h-auto xl:p-0 xl:bg-transparent xl:shadow-none xl:translate-x-0 xl:visible xl:pointer-events-auto xl:opacity-100"
+            >
+              <div
+                class="items flex flex-col items-center gap-[38px] xl:flex-row"
+              >
+                <div class="right-item">
+                  <a
+                    class="relative text-[clamp(16px,1vw,18px)] font-normal leading-[100%] text-black transition-all duration-300 hover:text-[var(--color-red)] hover:[-webkit-text-stroke:0.5px_var(--color-red)] max-xl:text-white max-xl:hover:text-[var(--color-yellow)] max-xl:hover:[-webkit-text-stroke:0.5px_var(--color-yellow)] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-red)] after:transition-all after:duration-300 hover:after:w-full max-xl:after:bg-[var(--color-yellow)]"
+                    href=""
+                  >
+                    Home
+                  </a>
+                </div>
+                <div class="right-item">
+                  <a
+                    class="relative text-[clamp(16px,1vw,18px)] text-nowrap font-normal leading-[100%] text-black transition-all duration-300 hover:text-[var(--color-red)] hover:[-webkit-text-stroke:0.5px_var(--color-red)] max-xl:text-white max-xl:hover:text-[var(--color-yellow)] max-xl:hover:[-webkit-text-stroke:0.5px_var(--color-yellow)] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-red)] after:transition-all after:duration-300 hover:after:w-full max-xl:after:bg-[var(--color-yellow)]"
+                    href=""
+                  >
+                    About Us
+                  </a>
+                </div>
+                <div class="right-item">
+                  <a
+                    class="relative text-[clamp(16px,1vw,18px)] font-normal leading-[100%] text-black transition-all duration-300 hover:text-[var(--color-red)] hover:[-webkit-text-stroke:0.5px_var(--color-red)] max-xl:text-white max-xl:hover:text-[var(--color-yellow)] max-xl:hover:[-webkit-text-stroke:0.5px_var(--color-yellow)] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-red)] after:transition-all after:duration-300 hover:after:w-full max-xl:after:bg-[var(--color-yellow)]"
+                    href=""
+                  >
+                    Takenomics
+                  </a>
+                </div>
+                <div class="right-item">
+                  <a
+                    class="relative text-[clamp(16px,1vw,18px)] font-normal leading-[100%] text-black transition-all duration-300 hover:text-[var(--color-red)] hover:[-webkit-text-stroke:0.5px_var(--color-red)] max-xl:text-white max-xl:hover:text-[var(--color-yellow)] max-xl:hover:[-webkit-text-stroke:0.5px_var(--color-yellow)] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-red)] after:transition-all after:duration-300 hover:after:w-full max-xl:after:bg-[var(--color-yellow)]"
+                    href=""
+                  >
+                    Roadmap
+                  </a>
+                </div>
+                <div class="right-item">
+                  <a
+                    class="relative text-[clamp(16px,1vw,18px)] font-normal leading-[100%] text-black transition-all duration-300 hover:text-[var(--color-red)] hover:[-webkit-text-stroke:0.5px_var(--color-red)] max-xl:text-white max-xl:hover:text-[var(--color-yellow)] max-xl:hover:[-webkit-text-stroke:0.5px_var(--color-yellow)] after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-0 after:bg-[var(--color-red)] after:transition-all after:duration-300 hover:after:w-full max-xl:after:bg-[var(--color-yellow)]"
+                    href=""
+                  >
+                    Contact
+                  </a>
+                </div>
+
+                
+              </div>
+
+              <button
+                class="connect-btn relative w-full max-w-[220px] cursor-pointer overflow-hidden text-nowrap rounded-[10px] border border-transparent bg-white px-8 py-3 text-[clamp(16px,1.1vw,20px)] font-medium leading-[150%] text-[var(--color-red)] transition-colors duration-700 ease-in-out hover:border-[var(--color-red)] hover:text-white max-xl:hover:border-[var(--color-yellow)] max-xl:hover:text-black before:absolute before:inset-y-0 before:-left-[20%] before:w-[140%] before:-translate-x-full before:skew-x-[-15deg] before:bg-[var(--color-red)] before:transition-transform before:duration-700 before:ease-out hover:before:translate-x-0 max-xl:before:bg-[var(--color-yellow)]"
+              >
+                <span class="relative z-10">Connect Wallet</span>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <div class="bg">
+        <img
+          width="1920"
+          height="348"
+          class="block h-[clamp(180px,18.125vw,348px)] w-full object-cover"
+          src="assets/images/hero-bg.webp"
+          alt="section-bg"
+        />
+      </div>
+
+      <div
+        class="row flex w-full flex-col items-center justify-center bg-[url(assets/images/burgers.webp)] bg-center bg-contain bg-no-repeat"
+      >
+        <div class="content flex w-full flex-col items-center justify-center">
+          <h1
+            class="heading pt-[clamp(30px,3.8vw,73px)] text-center text-[clamp(26px,2.5vw,36px)] font-bold leading-[1.1] text-black"
+          >
+            WELCOME TO
+          </h1>
+
+          <img
+            width="806"
+            height="351"
+            class="open mt-[clamp(15px,1.4vw,27px)] h-auto w-[clamp(280px,42vw,806px)] max-w-full"
+            src="assets/images/open.webp"
+            alt="open business"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      class="min-h-fit w-full bg-[var(--color-light-yellow)] px-5 lg:min-h-[554px]"
+    >
+      <div class="container max-w-[1320px] w-full mx-auto">
+        <div
+          class="row flex flex-col gap-[clamp(42px,10.052vw,193px)] items-center lg:flex-row"
+        >
+          <div
+            class="left pb-0 pt-[clamp(32px,5vw,66px)] left min-w-0 max-w-[591px] w-full lg:py-[66px]"
+          >
+            <h1
+              class="heading text-[clamp(28px,4vw,48px)] font-bold leading-[150%]"
+            >
+              It was popularised
+            </h1>
+            <p
+              class="para text-[clamp(14px,1.5vw,18px)] mt-6 leading-[178%] font-normal text-[var(--color-dull-black)]"
+            >
+              Have you heard? We’re hiring! We have 3,333 working positions to
+              fill on the Solana blockchain. Once all positions are filled it’s
+              crucial to stay on your toes because the corporate penguins are
+              coming! Any penguins caught chilling on the floor when corporate
+              arrives will be immediately fired and swept away! This makes SFFB
+              a deflationary collection until we reach a maximum staff of 1,666
+              mcnoots in total.
+            </p>
+            <button
+              class="discover-btn relative mt-[clamp(24px,4vw,48px)] overflow-hidden w-full max-w-[220px] text-nowrap py-[clamp(8px,2vw,12px)] px-[clamp(20px,5vw,32px)] bg-[var(--color-red)] cursor-pointer rounded-[10px] text-[clamp(14px,1.6vw,20px)] font-medium leading-[150%] text-white border border-transparent transition-colors duration-700 ease-in-out hover:border-[var(--color-red)] hover:text-[var(--color-red)] before:absolute before:inset-y-0 before:-left-[20%] before:w-[140%] before:bg-white before:skew-x-[-15deg] before:-translate-x-full before:transition-transform before:duration-700 before:ease-out hover:before:translate-x-0"
+            >
+              <span class="relative z-10 uppercase">Discover more</span>
+            </button>
+          </div>
+          <div class="right">
+            <img
+              width="536"
+              height="554"
+              class="max-w-[536px] w-full h-auto object-cover"
+              src="assets/images/about.webp"
+              alt="about"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery min-h-fit lg:min-h-[1108px] px-5">
+      <div class="container max-w-[1320px] w-full mx-auto">
+        <div
+          class="row py-[clamp(60px,8vw,115px)] items-center flex justify-center"
+        >
+          <div
+            class="grid max-w-[1194px] grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-x-[clamp(12px,4vw,32px)] gap-y-[clamp(12px,3vw,27px)]"
+          >
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-1.webp"
+              alt="gallery-1"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-2.webp"
+              alt="gallery-2"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-3.webp"
+              alt="gallery-3"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-4.webp"
+              alt="gallery-4"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-5.webp"
+              alt="gallery-5"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-6.webp"
+              alt="gallery-6"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-7.webp"
+              alt="gallery-7"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-8.webp"
+              alt="gallery-8"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-9.webp"
+              alt="gallery-9"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-10.webp"
+              alt="gallery-10"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-11.webp"
+              alt="gallery-11"
+            />
+            <img
+              width="274"
+              height="274"
+              class="sm:max-w-[274px] h-auto object-cover min-[320px]:max-w-[130px]"
+              src="assets/images/gallery-12.webp"
+              alt="gallery-12"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="supplies min-h-fit bg-[var(--color-red)] px-5 lg:min-h-[295px]"
+    >
+      <div class="container mx-auto w-full max-w-[1148px]">
+        <div
+          class="row flex w-full flex-col items-center justify-center pt-[29px] pb-[clamp(24px,5vw,58px)]"
+        >
+          <h1
+            class="heading text-[clamp(32px,4vw,48px)] font-bold leading-[150%] text-white max-md:text-4xl max-sm:text-3xl"
+          >
+            Supplies
+          </h1>
+
+          <div
+            class="info mt-[31px] flex w-full flex-wrap items-center justify-center lg:justify-between gap-x-[clamp(16px,2vw,32px)]"
+          >
+            <div
+              class="box h-[104px] w-[224px] lg:w-[120px] shrink-0 text-center"
+            >
+              <h1
+                class="box-heading text-[clamp(32px,4vw,48px)] font-bold leading-[150%] text-white max-md:text-4xl max-sm:text-3xl"
+              >
+                3,313
+              </h1>
+              <p
+                class="box-para whitespace-nowrap text-[clamp(14px,1.5vw,18px)] leading-[180%] text-[var(--color-light-white)]"
+              >
+                Public Sale
+              </p>
+            </div>
+
+            <div class="box h-[104px] w-[224px] shrink-0 text-center">
+              <h1
+                class="box-heading text-[clamp(32px,4vw,48px)] font-bold leading-[150%] text-white max-md:text-4xl max-sm:text-3xl"
+              >
+                15
+              </h1>
+              <p
+                class="box-para whitespace-nowrap text-[clamp(14px,1.5vw,18px)] leading-[180%] text-[var(--color-light-white)]"
+              >
+                Community Giveaways
+              </p>
+            </div>
+
+            <div
+              class="box h-[104px] w-[224px] lg:w-[219px] shrink-0 text-center"
+            >
+              <h1
+                class="box-heading text-[clamp(32px,4vw,48px)] font-bold leading-[150%] text-white max-md:text-4xl max-sm:text-3xl"
+              >
+                5
+              </h1>
+              <p
+                class="box-para whitespace-nowrap text-[clamp(14px,1.5vw,18px)] leading-[180%] text-[var(--color-light-white)]"
+              >
+                Marketing / Influencers
+              </p>
+            </div>
+
+            <div
+              class="box h-[104px] w-[224px] lg:w-[160px] shrink-0 text-center"
+            >
+              <h1
+                class="box-heading text-[clamp(32px,4vw,48px)] font-bold leading-[150%] text-white max-md:text-4xl max-sm:text-3xl"
+              >
+                15
+              </h1>
+              <p
+                class="box-para whitespace-nowrap text-[clamp(14px,1.5vw,18px)] leading-[180%] text-[var(--color-light-white)]"
+              >
+                Maximum Supply
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="roadmap min-h-fit lg:min-h-[1094px] bg-[url(assets/images/roadmap-burger.webp)] bg-center bg-no-repeat items-center flex justify-center px-5"
+    >
+      <div class="container max-w-[1240px] w-full mx-auto">
+        <div
+          class="row relative w-full pt-[clamp(40px,5vw,73px)] pb-[clamp(60px,7vw,106px)]"
+        >
+          <h1
+            class="heading text-center text-[clamp(32px,4vw,48px)] leading-[160%] font-bold text-black"
+          >
+            ROADMAP 1.0
+          </h1>
+
+          <div
+            class="big-card relative mt-[clamp(16px,10vw,97px)] w-full max-[1281px]:pl-10"
+          >
+            <div
+              class="circle z-10 rounded-full size-[30px] bg-white absolute left-1/2 -translate-x-1/2 max-[1281px]:left-[-1%] max-[1281px]:-translate-x-[-1%] max-[376px]:left-[-2%]"
+            ></div>
+
+            <div
+              class="card max-w-[568px] w-full bg-white rounded-[10px] py-[27px] px-[23px] max-[1281px]:max-w-full"
+            >
+              <h2
+                class="card-heading font-bold text-[clamp(16px,2vw,24px)] text-black"
+              >
+                Q4 2021
+              </h2>
+
+              <ol
+                class="text-[clamp(16px,2vw,24px)] font-normal text-black mt-4"
+              >
+                <li>1. Launch SFFB</li>
+                <li>2. SELL OUT</li>
+                <li>3. Apply for secondary marketplace listings</li>
+              </ol>
+            </div>
+
+            <div
+              class="absolute z-0 left-1/2 -translate-x-1/2 top-[30px] h-[calc(100%+97px)] w-2 bg-[var(--color-red)] max-[1281px]:left-0 max-[1281px]:translate-x-0 max-[992px]:left-[3px] max-[680px]:left-[5px]"
+            ></div>
+          </div>
+
+          <div
+            class="big-card relative mt-[clamp(32px,4.115vw,79px)] w-full flex justify-end max-[1281px]:justify-start pl-10"
+          >
+            <div
+              class="circle z-10 rounded-full size-[30px] bg-white absolute left-1/2 -translate-x-1/2 max-[1281px]:left-[-1%] max-[1281px]:-translate-x-[-1%] max-[376px]:left-[-2%]"
+            ></div>
+
+            <div
+              class="card max-w-[568px] w-full bg-white rounded-[10px] py-[27px] px-[23px] max-[1281px]:max-w-full"
+            >
+              <h2
+                class="card-heading font-bold text-[clamp(16px,2vw,24px)] text-black"
+              >
+                Q1 2022
+              </h2>
+
+              <ol
+                class="text-[clamp(16px,2vw,24px)] font-normal text-black mt-4"
+              >
+                <li>1. Charity Giveaway</li>
+                <li>2. Launch Adopt-A-Penguin Program</li>
+                <li>3. Secure Partnerships</li>
+              </ol>
+            </div>
+
+            <div
+              class="absolute z-0 left-1/2 -translate-x-1/2 top-[30px] h-[calc(100%+28px)] w-2 bg-[var(--color-red)] max-[1281px]:left-0 max-[1281px]:translate-x-0 max-[992px]:left-[3px] max-[680px]:left-[5px]"
+            ></div>
+          </div>
+
+          <div
+            class="big-card relative mt-[clamp(32px,3vw,57px)] w-full max-[1281px]:pl-10"
+          >
+            <div
+              class="circle z-10 rounded-full size-[30px] bg-white absolute left-1/2 -translate-x-1/2 max-[1281px]:left-[-1%] max-[1281px]:-translate-x-[-1%] max-[376px]:left-[-2%]"
+            ></div>
+
+            <div
+              class="card max-w-[568px] w-full bg-white rounded-[10px] py-[27px] px-[23px] max-sm:max-w-full max-[1281px]:max-w-full"
+            >
+              <h2
+                class="card-heading font-bold text-[clamp(16px,2vw,24px)] text-black"
+              >
+                Q2 2022
+              </h2>
+
+              <ol
+                class="text-[clamp(16px,2vw,24px)] font-normal text-black mt-4"
+              >
+                <li>1. SFFB Merch Release</li>
+                <li>2. Stay tune for Roadmap 2.0</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="team min-h-fit xl:min-h-[617px] bg-[var(--color-light-yellow)] px-5"
+    >
+      <div class="container max-w-[1320px] w-full mx-auto">
+        <div
+          class="row w-full flex flex-col items-center justify-center pt-[42px] pb-[clamp(40px,6vw,68px)]"
+        >
+          <h1
+            class="heading text-[clamp(32px,4vw,48px)] font-bold text-black leading-[150%]"
+          >
+            Team
+          </h1>
+          <div
+            class="cards mt-[clamp(16px,3vw,38px)] flex gap-[clamp(16px,3vw,35px)]"
+          >
+            <div
+              class="left-cards flex-col flex gap-[clamp(16px,3vw,35px)] md:flex-row"
+            >
+              <div class="card max-w-[303px] w-full">
+                <img
+                  width="303"
+                  height="303"
+                  class="w-full h-auto object-cover"
+                  src="assets/images/gallery-1.webp"
+                  alt="card-1"
+                />
+                <h1
+                  class="card-heading mt-[clamp(12px,2.5vw,26px)] text-[clamp(18px,2vw,24px)] text-center font-bold leading-[150%]"
+                >
+                  Jhone Doe
+                </h1>
+                <p
+                  class="card-para text-[clamp(14px,1.5vw,18px)] font-normal leading-[180%] text-black text-center"
+                >
+                  Manager
+                </p>
+              </div>
+              <div class="card max-w-[303px] w-full">
+                <img
+                  width="303"
+                  height="303"
+                  class="w-full h-auto object-cover"
+                  src="assets/images/gallery-2.webp"
+                  alt="card-2"
+                />
+                <h1
+                  class="card-heading mt-[clamp(12px,2.5vw,26px)] text-[clamp(18px,2vw,24px)] text-center font-bold leading-[150%]"
+                >
+                  Jhone Doe
+                </h1>
+                <p
+                  class="card-para text-[clamp(14px,1.5vw,18px)] font-normal leading-[180%] text-black text-center"
+                >
+                  Manager
+                </p>
+              </div>
+            </div>
+            <div
+              class="right-cards flex flex-col gap-[clamp(16px,3vw,35px)] md:flex-row"
+            >
+              <div class="card max-w-[303px] w-full">
+                <img
+                  width="303"
+                  height="303"
+                  class="w-full h-auto object-cover"
+                  src="assets/images/gallery-3.webp"
+                  alt="card-3"
+                />
+                <h1
+                  class="card-heading mt-[clamp(12px,2.5vw,26px)] text-[clamp(18px,2vw,24px)] text-center font-bold leading-[150%]"
+                >
+                  Jhone Doe
+                </h1>
+                <p
+                  class="card-para text-[clamp(14px,1.5vw,18px)] font-normal leading-[180%] text-black text-center"
+                >
+                  Manager
+                </p>
+              </div>
+              <div class="card max-w-[303px] w-full">
+                <img
+                  width="303"
+                  height="303"
+                  class="w-full h-auto object-cover"
+                  src="assets/images/gallery-4.webp"
+                  alt="card-4"
+                />
+                <h1
+                  class="card-heading mt-[clamp(12px,2.5vw,26px)] text-[clamp(18px,2vw,24px)] text-center font-bold leading-[150%]"
+                >
+                  Jhone Doe
+                </h1>
+                <p
+                  class="card-para text-[clamp(14px,1.5vw,18px)] font-normal leading-[180%] text-black text-center"
+                >
+                  Manager
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="FAQ min-h-fit lg:min-h-[1089px] px-5">
+      <div class="container max-w-[1320px] w-full mx-auto">
+        <div
+          class="row w-full pt-[clamp(40px,5vw,58px)] pb-11 flex flex-col justify-center items-center"
+        >
+          <h1
+            class="heading text-[clamp(32px,4vw,48px)] font-bold text-black leading-[150%]"
+          >
+            FAQ
+          </h1>
+          <div
+            class="max-w-[922px] w-full mx-auto mt-[clamp(12px,2.5vw,26px)] flex flex-col gap-2"
+          >
+            <div
+              class="w-full bg-[var(--color-light-yellow)] pt-[clamp(16px,2vw,23px)] pb-[clamp(14px,1.6vw,19px)] pr-[clamp(16px,2vw,25px)] pl-[clamp(16px,2.5vw,31px)]"
+            >
+              <input
+                type="checkbox"
+                id="accordion-toggle-1"
+                class="peer hidden"
+                checked
+              />
+
+              <label
+                for="accordion-toggle-1"
+                class="flex items-center justify-between list-none cursor-pointer select-none"
+              >
+                <span
+                  class="heading text-[clamp(14px,1.5vw,18px)] leading-[150%] font-semibold"
+                >
+                  Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                </span>
+
+                <span
+                  class="transition-transform duration-500 [input:checked~label_&]:rotate-180"
+                >
+                  <svg
+                    width="clamp(20px,2vw,28px)"
+                    height="clamp(12px,1.2vw,16px)"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.06055 1.06055L13.5605 13.5605L26.0605 1.06055"
+                      stroke="black"
+                      stroke-width="3"
+                    />
+                  </svg>
+                </span>
+              </label>
+
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]"
+              >
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-[21px] text-[var(--color-light-black)] text-[clamp(14px,1.5vw,18px)] leading-[178%]"
+                  >
+                    Enim scelerisque quisque egestas velit, eget tempus, arcu
+                    pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                    lectus nulla tincidunt egestas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion w-full bg-[var(--color-light-yellow)] pt-[clamp(16px,2vw,23px)] pb-[clamp(14px,1.6vw,19px)] pr-[clamp(16px,2vw,25px)] pl-[clamp(16px,2.5vw,31px)]"
+            >
+              <input
+                type="checkbox"
+                id="accordion-toggle-2"
+                class="peer hidden"
+              />
+
+              <label
+                for="accordion-toggle-2"
+                class="flex items-center justify-between list-none cursor-pointer select-none"
+              >
+                <span
+                  class="heading text-[clamp(14px,1.5vw,18px)] leading-[150%] font-semibold"
+                >
+                  Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                </span>
+
+                <span
+                  class="transition-transform duration-500 [input:checked~label_&]:rotate-180"
+                >
+                  <svg
+                    width="clamp(20px,2vw,28px)"
+                    height="clamp(12px,1.2vw,16px)"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.06055 1.06055L13.5605 13.5605L26.0605 1.06055"
+                      stroke="black"
+                      stroke-width="3"
+                    />
+                  </svg>
+                </span>
+              </label>
+
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]"
+              >
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-[21px] text-[var(--color-light-black)] text-[clamp(14px,1.5vw,18px)] leading-[178%]"
+                  >
+                    Enim scelerisque quisque egestas velit, eget tempus, arcu
+                    pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                    lectus nulla tincidunt egestas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion w-full bg-[var(--color-light-yellow)] pt-[clamp(16px,2vw,23px)] pb-[clamp(14px,1.6vw,19px)] pr-[clamp(16px,2vw,25px)] pl-[clamp(16px,2.5vw,31px)]"
+            >
+              <input
+                type="checkbox"
+                id="accordion-toggle-3"
+                class="peer hidden"
+              />
+
+              <label
+                for="accordion-toggle-3"
+                class="flex items-center justify-between list-none cursor-pointer select-none"
+              >
+                <span
+                  class="heading text-[clamp(14px,1.5vw,18px)] leading-[150%] font-semibold"
+                >
+                  Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                </span>
+
+                <span
+                  class="transition-transform duration-500 [input:checked~label_&]:rotate-180"
+                >
+                  <svg
+                    width="clamp(20px,2vw,28px)"
+                    height="clamp(12px,1.2vw,16px)"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.06055 1.06055L13.5605 13.5605L26.0605 1.06055"
+                      stroke="black"
+                      stroke-width="3"
+                    />
+                  </svg>
+                </span>
+              </label>
+
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]"
+              >
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-[21px] text-[var(--color-light-black)] text-[clamp(14px,1.5vw,18px)] leading-[178%]"
+                  >
+                    Enim scelerisque quisque egestas velit, eget tempus, arcu
+                    pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                    lectus nulla tincidunt egestas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion w-full bg-[var(--color-light-yellow)] pt-[clamp(16px,2vw,23px)] pb-[clamp(14px,1.6vw,19px)] pr-[clamp(16px,2vw,25px)] pl-[clamp(16px,2.5vw,31px)]"
+            >
+              <input
+                type="checkbox"
+                id="accordion-toggle-4"
+                class="peer hidden"
+              />
+
+              <label
+                for="accordion-toggle-4"
+                class="flex items-center justify-between list-none cursor-pointer select-none"
+              >
+                <span
+                  class="heading text-[clamp(14px,1.5vw,18px)] leading-[150%] font-semibold"
+                >
+                  Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                </span>
+
+                <span
+                  class="transition-transform duration-500 [input:checked~label_&]:rotate-180"
+                >
+                  <svg
+                    width="clamp(20px,2vw,28px)"
+                    height="clamp(12px,1.2vw,16px)"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.06055 1.06055L13.5605 13.5605L26.0605 1.06055"
+                      stroke="black"
+                      stroke-width="3"
+                    />
+                  </svg>
+                </span>
+              </label>
+
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]"
+              >
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-[21px] text-[var(--color-light-black)] text-[clamp(14px,1.5vw,18px)] leading-[178%]"
+                  >
+                    Enim scelerisque quisque egestas velit, eget tempus, arcu
+                    pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                    lectus nulla tincidunt egestas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion w-full bg-[var(--color-light-yellow)] pt-[clamp(16px,2vw,23px)] pb-[clamp(14px,1.6vw,19px)] pr-[clamp(16px,2vw,25px)] pl-[clamp(16px,2.5vw,31px)]"
+            >
+              <input
+                type="checkbox"
+                id="accordion-toggle-5"
+                class="peer hidden"
+              />
+
+              <label
+                for="accordion-toggle-5"
+                class="flex items-center justify-between list-none cursor-pointer select-none"
+              >
+                <span
+                  class="heading text-[clamp(14px,1.5vw,18px)] leading-[150%] font-semibold"
+                >
+                  Amet vel eget nisi, sed ut massa turpis sodales nunc.
+                </span>
+
+                <span
+                  class="transition-transform duration-500 [input:checked~label_&]:rotate-180"
+                >
+                  <svg
+                    width="clamp(20px,2vw,28px)"
+                    height="clamp(12px,1.2vw,16px)"
+                    viewBox="0 0 28 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.06055 1.06055L13.5605 13.5605L26.0605 1.06055"
+                      stroke="black"
+                      stroke-width="3"
+                    />
+                  </svg>
+                </span>
+              </label>
+
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]"
+              >
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-[21px] text-[var(--color-light-black)] text-[clamp(14px,1.5vw,18px)] leading-[178%]"
+                  >
+                    Enim scelerisque quisque egestas velit, eget tempus, arcu
+                    pulvinar in. Quis sed at sodales aliquam. Amet fermentum,
+                    lectus nulla tincidunt egestas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="logo max-w-[524px] w-full">
+            <img
+              width="524"
+              height="140"
+              class="faq-logo mt-[clamp(40px,6vw,88px)] w-full h-auto md:h-[140px] object-cover"
+              src="assets/images/logo.webp"
+              alt="logo"
+            />
+          </div>
+          <div
+            class="socials flex gap-[clamp(20px,4vw,46px)] mt-[clamp(12px,2.5vw,26px)]"
+          >
+            <div class="dc">
+              <a target="_blank" href="https://discord.com/channels/@me"
+                ><svg
+                  width="clamp(48px,6vw,72px)"
+                  height="clamp(48px,6vw,72px)"
+                  viewBox="0 0 72 72"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="group cursor-pointer"
+                >
+                  <g clip-path="url(#clip0_34717_2781)">
+                    <path
+                      d="M60.4915 12.983C55.8581 10.8566 50.969 9.33899 45.946 8.46795C45.9005 8.46028 45.8538 8.4669 45.8122 8.46689C45.7706 8.50689 45.7362 8.53927 45.7138 8.57959C45.0841 9.69607 44.3874 11.1564 43.9006 12.2997C38.4862 11.478 32.9788 11.478 27.5643 12.2997C27.0213 11.0261 26.4071 9.78411 25.7244 8.57959C25.7015 8.53971 25.667 8.5077 25.6256 8.48777C25.5841 8.46784 25.5376 8.46093 25.4922 8.46795C20.468 9.33433 15.5778 10.8527 10.9467 12.983C10.9071 12.9981 10.8739 13.0265 10.8529 13.0634C1.59062 26.9032 -0.950484 40.4037 0.295504 53.7344C0.29997 53.7969 0.340163 53.8595 0.389288 53.8996C5.78287 57.8949 11.8157 60.9453 18.2306 62.9208C18.2759 62.9351 18.3246 62.9345 18.3695 62.9193C18.4145 62.904 18.4534 62.8748 18.4807 62.8359C19.8562 60.9602 21.0798 58.9818 22.1338 56.9007C22.1558 56.8579 22.1633 56.8091 22.1552 56.7616C22.1472 56.7141 22.124 56.6705 22.0891 56.6372C22.0661 56.6154 22.0387 56.5987 22.0088 56.5881C20.0847 55.8487 18.2212 54.9602 16.4353 53.9309C16.3854 53.9026 16.3483 53.8563 16.3317 53.8014C16.3151 53.7465 16.3202 53.6874 16.346 53.6362C16.3612 53.6029 16.3842 53.5738 16.413 53.5513C16.7881 53.27 17.1632 52.9752 17.5205 52.6804C17.5521 52.6551 17.5899 52.6388 17.6301 52.6333C17.6702 52.6277 17.711 52.6333 17.7483 52.6492C29.4445 57.9904 42.1053 57.9904 53.6587 52.6492C53.6972 52.6325 53.7396 52.6266 53.7813 52.6321C53.823 52.6376 53.8624 52.6543 53.8953 52.6804C54.2526 52.9752 54.6278 53.27 55.0029 53.5513C55.0333 53.5735 55.0577 53.6029 55.074 53.6369C55.0902 53.6708 55.0978 53.7083 55.096 53.7459C55.0942 53.7835 55.0832 53.8201 55.0638 53.8524C55.0444 53.8847 55.0174 53.9116 54.985 53.9309C53.2032 54.9696 51.3373 55.857 49.4071 56.5837C49.3763 56.5948 49.3484 56.6126 49.3252 56.6357C49.3021 56.6589 49.2843 56.6868 49.2731 56.7176C49.2628 56.7475 49.2587 56.7791 49.261 56.8106C49.2633 56.842 49.272 56.8727 49.2865 56.9007C50.3583 58.9774 51.5865 60.9602 52.9352 62.8359C52.9624 62.8748 53.0014 62.904 53.0463 62.9193C53.0913 62.9345 53.14 62.9351 53.1853 62.9208C59.6109 60.9514 65.6535 57.9007 71.0534 53.8996C71.0804 53.8809 71.1029 53.8563 71.1191 53.8277C71.1354 53.7991 71.1449 53.7672 71.1471 53.7344C72.6388 38.3225 68.6507 24.9338 60.5808 13.0678C60.5727 13.0482 60.5605 13.0306 60.5451 13.0159C60.5298 13.0013 60.5115 12.9901 60.4915 12.983ZM23.88 45.6154C20.3564 45.6154 17.458 42.3821 17.458 38.4163C17.458 34.4461 20.3028 31.2128 23.88 31.2128C27.484 31.2128 30.3555 34.4729 30.3019 38.4163C30.3019 42.3821 27.4572 45.6154 23.88 45.6154ZM47.6207 45.6154C44.1016 45.6154 41.1988 42.3821 41.1988 38.4163C41.1988 34.4461 44.0435 31.2128 47.6207 31.2128C51.2247 31.2128 54.1008 34.4729 54.0427 38.4163C54.0427 42.3821 51.2247 45.6154 47.6207 45.6154Z"
+                      class="fill-[#FF0000] group-hover:fill-white transition-colors duration-200"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_34717_2781">
+                      <rect width="71.4545" height="71.4545" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+            <div class="twt">
+              <a target="_blank" href="https://x.com/"
+                ><svg
+                  width="clamp(48px,6vw,72px)"
+                  height="clamp(48px,6vw,72px)"
+                  viewBox="0 0 72 72"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="group cursor-pointer"
+                >
+                  <path
+                    d="M70.391 14.6985C67.905 15.8001 65.2344 16.5444 62.4268 16.8808C65.3237 15.1474 67.491 12.4193 68.5243 9.20541C65.8026 10.822 62.8238 11.96 59.7175 12.5697C57.6286 10.3394 54.8617 8.86102 51.8466 8.36426C48.8314 7.86749 45.7365 8.38009 43.0425 9.82246C40.3485 11.2648 38.206 13.5563 36.9478 16.3411C35.6895 19.1258 35.3858 22.2481 36.0839 25.2231C30.5691 24.9462 25.1741 23.5128 20.2491 21.016C15.324 18.5191 10.9791 15.0146 7.49613 10.7298C6.30522 12.7841 5.62045 15.1659 5.62045 17.7025C5.61912 19.9861 6.18146 22.2347 7.25759 24.2488C8.33371 26.2629 9.89034 27.9802 11.7894 29.2484C9.587 29.1783 7.43323 28.5832 5.50731 27.5127V27.6913C5.50709 30.8941 6.61496 33.9983 8.64293 36.4772C10.6709 38.9562 13.4941 40.6571 16.6334 41.2915C14.5903 41.8444 12.4483 41.9258 10.3692 41.5297C11.2549 44.2855 12.9803 46.6953 15.3036 48.4218C17.627 50.1483 20.4321 51.1051 23.3263 51.1582C18.4133 55.015 12.3458 57.107 6.09979 57.0978C4.99338 57.0981 3.8879 57.0335 2.78906 56.9043C9.12909 60.9807 16.5093 63.1441 24.0468 63.1357C49.562 63.1357 63.5105 42.003 63.5105 23.675C63.5105 23.0795 63.4957 22.4781 63.4689 21.8826C66.182 19.9205 68.524 17.4909 70.3851 14.7074L70.391 14.6985Z"
+                    class="fill-[#FF0000] group-hover:fill-white transition-colors duration-200"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <p
+            class="copyright text-[clamp(14px,1.5vw,18px)] leading-[178%] text-[var(--color-light-black)] mt-[clamp(24px,4vw,52px)]"
+          >
+            @Copyright 2021
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
